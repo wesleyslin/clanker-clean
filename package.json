@@ -1,0 +1,28 @@
+{
+  "name": "clanker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watchSnipe": "ts-node src/watchSnipe.ts",
+    "getchatid": "ts-node src/getChatId.ts",
+    "build": "tsc",
+    "start": "node dist/watchSnipe.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "https": "^1.0.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "viem": "^2.21.45"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}
